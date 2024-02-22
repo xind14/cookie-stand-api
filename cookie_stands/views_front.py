@@ -24,8 +24,8 @@ class CookieStandUpdateView(LoginRequiredMixin, UpdateView):
 class CookieStandCreateView(LoginRequiredMixin, CreateView):
     template_name = "cookiestands/cookiestand_create.html"
     model = CookieStand
-    fields = ["name", "rating", "reviewer"] # "__all__" for all of them
-
+    # fields = ["name", "rating", "reviewer"]
+    fields = "__all__"
 
 class CookieStandDeleteView(LoginRequiredMixin, DeleteView):
     template_name = "cookiestands/cookiestand_delete.html"
