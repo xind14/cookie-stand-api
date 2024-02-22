@@ -35,3 +35,25 @@ Template Project for starting up CRUD API with Django Rest Framework
 ## Database
 
 **NOTE:** If you are using Postgres instead of SQLite then make sure to install `psycopg2-binary` and include in `requirements.txt`
+
+
+python3 -c "import secrets; print(secrets.token_urlsafe())"
+python manage.py makemigrations 
+python manage.py migrate 
+python manage.py runserver
+
+
+in elephant sql
+
+password goes in env DB PW
+user and default db goes into name and user
+server goes into host 
+
+
+pip install psycopg2-binary to use postre with sqllite 
+pip freeze > requirements.txt
+
+there are migrations bc you changed db just apply them
+
+
+python manage.py createsuperuser
