@@ -1,6 +1,32 @@
-# api-quick-start
+# Lab: Class 34 - Putting it All Together
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Author: Xin Deng
+
+### Links and Resources
+
+- chatGPT
+- [Class 34 Demo](https://github.com/codefellows/seattle-code-python-401d24/tree/main/class-34/demo)
+
+### Overview - Django Permissions & Postgresql
+
+This is a project that brings “Vanilla” Django and Django Rest Framework together in the same project. It builds out a Restful API as well as a user facing site and move to a remote database. The project will be a Cookie Stand management site.
+
+
+
+#### Version 1.0
+
+Build 1.0 Feature Tasks
+
+1. Use API quick start [template](https://github.com/codefellows/python-401-api-quickstart)
+2. Install from requirements.txt
+3. Update templates to match cookie stand model
+4. Host database at elephantSQL
+
+### How to Initialize/Run Application
+
+- `python manage.py runserver`
+
+
 
 ## Customization Steps
 
@@ -35,3 +61,5 @@ Template Project for starting up CRUD API with Django Rest Framework
 ## Database
 
 **NOTE:** If you are using Postgres instead of SQLite then make sure to install `psycopg2-binary` and include in `requirements.txt`
+
+
