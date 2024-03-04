@@ -11,8 +11,6 @@
 
 This is a project that brings “Vanilla” Django and Django Rest Framework together in the same project. It builds out a Restful API as well as a user facing site and move to a remote database. The project will be a Cookie Stand management site.
 
-
-
 #### Version 1.0
 
 Build 1.0 Feature Tasks
@@ -25,8 +23,6 @@ Build 1.0 Feature Tasks
 ### How to Initialize/Run Application
 
 - `python manage.py runserver`
-
-
 
 ## Customization Steps
 
@@ -63,3 +59,6 @@ Build 1.0 Feature Tasks
 **NOTE:** If you are using Postgres instead of SQLite then make sure to install `psycopg2-binary` and include in `requirements.txt`
 
 
+### Deployed Link
+
+[API Deployed Link](https://cookie-stand-api-xind14.vercel.app/)
